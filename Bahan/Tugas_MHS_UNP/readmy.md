@@ -1,4 +1,7 @@
-Buat sebuah sebuah tampilan seperti pada gambar dengan menggunakan array of record.
-Note : 
-- Bisa merubah contoh script yang sudah ada (Slide pertemuan kedua)
-- Bisa membuta baru sesuai style coding masing-masing
+Buat sebuah ringkasan terkait :
+a. Pointer
+b. Linked List
+c. Hubungan antara array dan pointer
+c. Contoh Pointer dalam bahasa PHP
+
+Note : Hasil dikirim ke email ariksofyan@stt-pomosda.ac.id, dengan subjek "Tugas1_struktur_data_UNP"

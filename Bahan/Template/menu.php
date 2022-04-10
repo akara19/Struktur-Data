@@ -17,14 +17,11 @@
 			<a href="linked_list.php">Linked List</a>
 		</div>
     </div>
-		
-    <div class="nav-item">
-      <a href="" class="nav-link">Menu</a>
-
+   
+   <div class="nav-item">
+      <a href="" class="nav-link">Tree</a>
       <div class="nav-dropdown">
-        <a href="">Blog</a>
-        <a href="">Halaman</a>
-        <a href="">Video</a>
+        <a href="tree.php">Tree</a>
       </div>
     </div>
   </nav>

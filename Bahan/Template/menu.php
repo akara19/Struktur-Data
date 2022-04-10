@@ -7,13 +7,17 @@
       <div class="nav-dropdown">
         <a href="array_barang.php">Data Barang (Statis)</a>
         <a href="array_barang_dinamis.php">Data Barang (Dinamis)</a>
-        <a href="">Video</a>
       </div>
     </div>
-    <div class="nav-item">
-      <a class="nav-link" href="kontak.html">Kontak</a>
+		
+   <div class="nav-item">
+      <a class="nav-link" href="kontak.html">Pointer dan Linked List</a>
+		<div class="nav-dropdown">
+			<a href="pointer.php">Pointer</a>
+			<a href="linked_list.php">Linked List</a>
+		</div>
     </div>
-
+		
     <div class="nav-item">
       <a href="" class="nav-link">Menu</a>
 

@@ -1,0 +1,2 @@
+- Silahkan soal didownload pada halaman ini 
+- Kirim hasil UTS ke email ariksofyan@stt-pomosda.ac.id

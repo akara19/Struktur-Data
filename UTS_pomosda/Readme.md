@@ -1,2 +1,4 @@
 - Silahkan soal didownload pada halaman ini 
-- Kirim hasil UTS ke email ariksofyan@stt-pomosda.ac.id
+- Kirim hasil UTS ke email ariksofyan@stt-pomosda.ac.id dengan subject UTS_STRUKTUR_DATA_STTPOMOSDA
+- Catumkan NIM,NAMA, JURUSAN
+- Paling lambat dikumpulkan sebelum jam 00.00

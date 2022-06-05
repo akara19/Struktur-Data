@@ -25,7 +25,7 @@
 			<td><input type="type" name="Jumlah"></td>
 		</tr>
 		<tr>
-			<td><input type="submit" value="Simpan"></td>
+			<td><input type="submit" value="Tambah"></td>
 			<td><a href="?clear=1"> <input type="button" value="Bersihkan Data"></a></td>
 		</tr>
 	</table>
@@ -39,13 +39,13 @@
         $Kode_barang = $_POST['Kode_barang'];
         $Nama_barang = $_POST['Nama_barang'];
         $Harga_barang = $_POST['Harga_barang'];
-		$Jumlah= $_POST['Jumlah'];
-        
+		$Jumlah= $_POST['Jumlah'];        
 
-        array_push($data,array('Kode_barang'=>$Kode_barang,
-    						   'Nama_barang'=>$Nama_barang,
-    						   'Harga_barang'=>$Harga_barang,
-						   'Jumlah'=>$Jumlah));
+        array_push($data,array(	'Kode_barang'=>$Kode_barang,
+    						   	'Nama_barang'=>$Nama_barang,
+    						   	'Harga_barang'=>$Harga_barang,
+						   		'Jumlah'=>$Jumlah)
+								);
    		$_SESSION['data'] = $data;
    		$x=1;
    		echo "<table border='1'>".
@@ -67,8 +67,14 @@
             $x++;
         }
         echo "</table>";
+        
+        // Mengkonversi data array kedalam json
+		$json = json_encode($data,JSON_PRETTY_PRINT);
+		
+		// Menyimpan data json kedalam file
+		$simpanFile = file_put_contents('penjualan.json',$json);
 
-    }else if ($_GET['clear']==1) {
+    }else if (isset($_GET['clear'])) {
     	session_destroy();
     }
 	?>

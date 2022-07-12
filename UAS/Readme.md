@@ -4,5 +4,5 @@
 - 2. array
 - 3. Session (Optional)
 - Hasil dikirimkan ke E-Mail : arik.sofan.tohir@gmail.com dengan Subject: UAS_PRAK_Struktur_Data_UNP_2021_2022
-- Paling lambat tanggal 19-07-2022
+- Paling lambat tanggal 23 Juli 2022
 - Sertakan NIM, NAMA, Prodi dan Kelas

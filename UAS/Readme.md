@@ -1,0 +1,8 @@
+- Buat sebuah aplikasi dengan menggunakan bahasa pemrograman PHP,dimana pada aplikasi tersebut harus menggunakan fungsi-fungsi berikut
+- 1. Struktur percabangan
+- 2. aritmatika Mis : Penjumlahan, Pengurangan, perkalian, pembagian
+- 2. array
+- 3. Session (Optional)
+- Hasil dikirimkan ke E-Mail : arik.sofan.tohir@gmail.com dengan Subject: UAS_PRAK_Struktur_Data_UNP_2021_2022
+- Paling lambat tanggal 19-07-2022
+- Sertakan NIM, NAMA, Prodi dan Kelas
